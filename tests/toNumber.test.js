@@ -1,7 +1,7 @@
 import toNumber from '../library/toNumber.js'
 
 describe('toNumber - pre-planned and AI tools used', () => {
-   test('TC1 – Integer string conversion', () => {
+  test('TC1 – Integer string conversion', () => {
     expect(toNumber('5')).toBe(5)
   })
 
